@@ -9,6 +9,8 @@ var mainState = {
 		// Change the background color of the game
 		game.stage.backgroundColor = '#71c5cf';
 
+		game.load.crossOrigin = "anonymous";
+
 		// Load the player sprite
 		// game.load.image('player', 'assets/moon-face.png');
 		game.load.image('player', 'https://ik.imagekit.io/p05uzwuasop/moon-face_7grUoI9bk.png?ik-sdk-version=javascript-1.4.3&updatedAt=1642389083226');
